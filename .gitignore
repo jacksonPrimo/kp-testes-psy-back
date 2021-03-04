@@ -1,0 +1,3 @@
+#node modules with dependences
+/node_modules
+secretKey.json

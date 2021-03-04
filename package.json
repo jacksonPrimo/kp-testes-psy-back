@@ -1,0 +1,30 @@
+{
+  "name": "kp-testes-psy-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonPrimo/kp-testes-psy-back.git"
+  },
+  "author": "Jackson Aquino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksonPrimo/kp-testes-psy-back/issues"
+  },
+  "homepage": "https://github.com/jacksonPrimo/kp-testes-psy-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^8.2.9",
+    "firebase-admin": "^9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
