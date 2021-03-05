@@ -7,6 +7,6 @@ module.exports = {
 		return auth.getUser(id)
 	},
 	create(email, password){
-		
+		return auth.createUser({email, password})
 	}
 }
