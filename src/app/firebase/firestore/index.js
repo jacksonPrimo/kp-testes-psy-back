@@ -15,11 +15,7 @@ module.exports = {
   get(id){
     return collection.doc('a123').get()
   },
-  create(){
-    return collection.doc('a123').set({
-      first: 'Ada',
-      last: 'Lovelace',
-      born: 1815
-    })
+  create(data){
+    return collection.doc(data.id).set(data)
   }
 }
