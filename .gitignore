@@ -1,3 +1,6 @@
 #node modules with dependences
 /node_modules
 secretKey.json
+
+#environment variables
+.env

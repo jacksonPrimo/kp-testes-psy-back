@@ -1,7 +1,5 @@
 const admin = require('firebase-admin');
 
-// const serviceAccount = require('./secretKey.json');
-// const secretKey = require('./secretKey.json');
 const serviceAccount = {
   "type": process.env.type,
   "project_id": process.env.project_id,
