@@ -1,6 +1,6 @@
 module.exports = (app) => {
 
-  app.get('/ping', (req, res)=>{
+  app.get('/', (req, res)=>{
     res.send('API is working!')
   })
 
